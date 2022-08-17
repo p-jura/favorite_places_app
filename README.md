@@ -1,6 +1,6 @@
 # favorite_places
 
-An application made to save users favorite/importent places. Data is kept on the device using sqflite, additionaly user cant take a picture of favorite place 
+An application made to save users favorite/importent places. Data is kept on the device using sqflite, additionaly user can take a picture of favorite place 
 and position using google maps.
 
 ## Screenshots

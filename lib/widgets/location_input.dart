@@ -45,7 +45,10 @@ class _LocationInputState extends State<LocationInput> {
     try {
       final locData = await Location().getLocation();
       _showImagePreview(locData.latitude!, locData.longitude!);
-    } catch (error) {
+
+      widget.onSelectPlace(
+          latitude: locData.latitude, longitude: locData.longitude);
+    } catch (_) {
       return;
     }
   }
